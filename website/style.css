@@ -1,0 +1,296 @@
+body
+{
+	font-family: Arial,Verdana,Tahoma;
+	font-size: 15px;
+	color: blanchedalmond;
+	background-color: darkorange ;
+	text-align: justify;
+}
+
+
+/* TOP -------------*/
+#top
+{
+	background-color: yellow;
+	width: 99%;
+	margin-bottom: 50px;
+	height: 130px;
+	padding: 10px;
+}
+
+#top .hldr
+{
+	width: 700px;
+	margin: 0 auto;
+	clear: both;
+	font-family: cursive;
+}
+
+/* sitename --------*/
+/*#top .sitename
+{
+	width: 153px;
+	float: left;
+	text-align: center;
+}*/
+#top .sitename h1
+{
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+	padding-top: 10px;
+}
+#top .sitename h1 .nameA
+{
+	font-size: 80px;
+	color: maroon;
+	text-align: center;
+
+}
+#top .sitename h1 .nameB
+{
+	color: darkgreen;
+}
+#top .sitename h6.tagline
+{
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	color: #fff;
+	margin: 0;
+}
+
+/* navigation ------*/
+#top .nav
+{
+	text-align: right;
+	width: 470px;
+	height: 42px;
+	float: left;
+	padding-top: 30px;
+}
+#top .nav ul
+{
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+#top .nav ul li
+{
+	display: inline;
+}
+#top .nav ul li a
+{
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #808080;
+	border-left: 1px solid #808080;
+	padding: 42px 0 0 10px;
+	margin: 0 20px 0 0;
+	height: 42px;
+}
+#top .nav ul li a:hover
+{
+	color: #b9b9b9;
+	border-left: 1px solid #b9b9b9;
+}
+#top .nav ul li a.active{
+	color: #fff;
+	border-left: 1px solid #fff;
+}
+
+/* rss -------------*/
+#top .rss
+{
+	width: 73px;
+	float: left;
+	padding-top: 3px;
+}
+#top .rss a img
+{
+	border: none;
+}
+
+
+/* CONTAINER -------*/
+#container
+{
+	width: 753px;
+	margin: 0 auto;
+	padding-top: 20px;
+	clear: both;
+}
+
+/* left ------------*/
+#lft
+{
+	width: 495px;
+	float: left;
+}
+#lft .article
+{
+	padding-bottom: 25px;
+}
+#lft .article img.icon
+{
+	margin-right: 10px;
+	float: left;
+}
+#lft .article h2.title
+{
+	color: brown;
+	font-family: serif;
+	font-size: 30px;
+
+}
+#lft .article p img, #lft .article p a img
+{
+	border: none;
+	float: left;
+	padding: 0 10px 0 0;	
+}
+#lft .article .more
+{
+	border-top: 1px solid #333333;
+	width: 495px;
+}
+#lft .article .more a
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #b7bdc0;
+	background-color: #333333;
+	padding: 3px 10px;
+	float: right;
+}
+#lft .article .more a:hover
+{
+	color: #fff;
+}
+
+/* right -----------*/
+#rgt
+{
+	margin-left: 20px;
+	width: 235px;
+	float: left;
+}
+
+#rgt blockquote
+{
+	background-color: yellow;
+	background-position: 15px 15px;
+	background-repeat: no-repeat;
+	font-family: Garamond, Times New Romans;
+	font-size: 30px;
+	font-style: italic;
+	color: darkgreen;
+	padding: 30px 25px 130px 25px;
+	margin: 30px 200px;
+	width: 200px;
+	height: 450px;
+}
+#rgt blockquote .source
+{
+	font-family: Arial,Verdana,Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	text-align: right;
+	margin-top: 10px;
+}
+
+/* categories ------*/
+#categories
+{
+	width: 753px;
+	clear: both;
+	padding-top: 25px;
+}
+#categories .hdr
+{
+	background-color: maroon;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 753px;
+	height: 25px;
+
+}
+#categories .hdr h2
+{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0;
+	padding: 5px 0 0 300px;
+	color: wheat;
+}
+#categories .clmn
+{
+	width: 213px;
+	padding-left: 110px;
+	float: left;
+}
+#categories .clmn h3
+{
+	font-size: 16px;
+	color: maroon;
+	margin: 20px 0 5px 0;
+}
+#categories .clmn ul
+{
+	padding: 0;
+	margin: 0;
+}
+#categories .clmn ul li
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#categories .clmn ul li a
+{
+	text-decoration: none;
+	color: darkblue;
+}
+#categories .clmn ul li a:hover
+{
+	color: skyblue;
+}
+
+/* footer ----------*/
+.footer
+{
+	font-size: 15px;
+	font-family: cursive;
+	color: brown;
+	width: 1450px;
+	padding: 20px 10px 10px 30px;
+	clear: both;
+}
+.footer .copyright
+{
+	float: left;
+}
+.footer .credit
+{
+	float: right;
+}
+.footer .credit a
+{
+	color: brown;
+	text-decoration: underline;
+}
+.footer .credit a:hover
+{
+	text-decoration: none;
+}
+.edit
+{
+ border-radius: 30px 30px 30px 30px;
+ box-shadow: 2px 5px wheat;
+}
+.nam
+{
+ color: darkred;
+ font-family:serif ;
+}
